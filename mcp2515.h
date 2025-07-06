@@ -473,6 +473,7 @@ class MCP2515
         ERROR setSleepMode();
         ERROR setLoopbackMode();
         ERROR setNormalMode();
+        ERROR setNormalOneShotMode();
         ERROR setClkOut(const CAN_CLKOUT divisor);
         ERROR setBitrate(const CAN_SPEED canSpeed);
         ERROR setBitrate(const CAN_SPEED canSpeed, const CAN_CLOCK canClock);
