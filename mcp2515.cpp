@@ -179,7 +179,7 @@ MCP2515::ERROR MCP2515::setNormalMode()
 
 MCP2515::ERROR MCP2515::setNormalOneShotMode()
 {
-    return setMode(CANCTRL_REQOP_NORMAL | CANCTRL_OSM);
+    return setMode(CANCTRL_REQOP_OSM);
 }
 
 MCP2515::ERROR MCP2515::setMode(const CANCTRL_REQOP_MODE mode)
